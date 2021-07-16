@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/amitila/TaskManagers.git/static/css/main.75c3000b.chunk.css",
-    "main.js": "/amitila/TaskManagers.git/static/js/main.8eb03c8f.chunk.js",
-    "main.js.map": "/amitila/TaskManagers.git/static/js/main.8eb03c8f.chunk.js.map",
-    "runtime-main.js": "/amitila/TaskManagers.git/static/js/runtime-main.9f037ce9.js",
-    "runtime-main.js.map": "/amitila/TaskManagers.git/static/js/runtime-main.9f037ce9.js.map",
-    "static/js/2.86868d10.chunk.js": "/amitila/TaskManagers.git/static/js/2.86868d10.chunk.js",
-    "static/js/2.86868d10.chunk.js.map": "/amitila/TaskManagers.git/static/js/2.86868d10.chunk.js.map",
-    "index.html": "/amitila/TaskManagers.git/index.html",
-    "static/css/main.75c3000b.chunk.css.map": "/amitila/TaskManagers.git/static/css/main.75c3000b.chunk.css.map",
-    "static/js/2.86868d10.chunk.js.LICENSE.txt": "/amitila/TaskManagers.git/static/js/2.86868d10.chunk.js.LICENSE.txt"
+    "main.css": "/TaskManagers/static/css/main.75c3000b.chunk.css",
+    "main.js": "/TaskManagers/static/js/main.8eb03c8f.chunk.js",
+    "main.js.map": "/TaskManagers/static/js/main.8eb03c8f.chunk.js.map",
+    "runtime-main.js": "/TaskManagers/static/js/runtime-main.609b42cf.js",
+    "runtime-main.js.map": "/TaskManagers/static/js/runtime-main.609b42cf.js.map",
+    "static/js/2.86868d10.chunk.js": "/TaskManagers/static/js/2.86868d10.chunk.js",
+    "static/js/2.86868d10.chunk.js.map": "/TaskManagers/static/js/2.86868d10.chunk.js.map",
+    "index.html": "/TaskManagers/index.html",
+    "static/css/main.75c3000b.chunk.css.map": "/TaskManagers/static/css/main.75c3000b.chunk.css.map",
+    "static/js/2.86868d10.chunk.js.LICENSE.txt": "/TaskManagers/static/js/2.86868d10.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.9f037ce9.js",
+    "static/js/runtime-main.609b42cf.js",
     "static/js/2.86868d10.chunk.js",
     "static/css/main.75c3000b.chunk.css",
     "static/js/main.8eb03c8f.chunk.js"
