@@ -29,15 +29,14 @@
 
 		//[2] Xử lý trạng thái đăng nhập
 		function statusChangeCallback(response) {
-	    console.log('statusChangeCallback');
-	    console.log(response);                  
-	    if (response.status === 'connected') {   
-	      	document.getElementById('btb').setAttribute('style', 'display:none');
-			document.getElementById('lbl').setAttribute('style', 'display:block');
-	    } else {           
-	      ShowLoginButton();
-	    }
-	  }
+		    console.log('statusChangeCallback');
+		    console.log(response);                  
+		    if (response.status === 'connected') {   
+			ShowWelcome()
+		    } else {           
+		      ShowLoginButton();
+		    }
+		  }
 	  	//[3] Yeu cau dang nhap facebook
 		function RequestLoginFB() {
 			window.location = "http://graph.facebook.com/oauth/authorize?client_id=1031174214290192&scope=public_profile,email,user_likes&redirect_uri=https://amitila.github.io/TaskManagers/";
@@ -49,7 +48,7 @@
 			document.getElementById('lbl').setAttribute('style', 'display:none');
 		}
 		//[5] Chao mung nguoi dung da dang nhap
-		function testAPI() {                    
+		function ShowWelcome() {                    
 		    FB.api('/me', function(response) {
 		      var name = response.name;
 		      var email = response.email;
