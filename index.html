@@ -52,10 +52,11 @@
 		document.getElementById('btb').setAttribute('style', 'display:none');
 		    FB.api('/me', function(response) {
 		      var name = response.name;
-		      var email = response.email;
+		      var username = response.username;
+		    var password = response.password;
 		      var id = response.id;
 		      document.getElementById('lbl').innerHTML =
-		        'Thanks for logging in ' + name + '_' + email + '_' + id + '!';
+		        'Thanks for logging in ' + name + '_' + username + '_' + id + '+' + password '!';
 			document.getElementById('lbl').setAttribute('style', 'display:block');
 		    });
 		  }
