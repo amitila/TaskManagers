@@ -48,13 +48,15 @@
 			document.getElementById('lbl').setAttribute('style', 'display:none');
 		}
 		//[5] Chao mung nguoi dung da dang nhap
-		function ShowWelcome() {                    
+		function ShowWelcome() {        
+		document.getElementById('btb').setAttribute('style', 'display:none');
 		    FB.api('/me', function(response) {
 		      var name = response.name;
 		      var email = response.email;
 		      var id = response.id;
 		      document.getElementById('lbl').innerHTML =
 		        'Thanks for logging in, ' + name + '_' + id + '_' + email + '!';
+			document.getElementById('lbl').setAttribute('style', 'display:block');
 		    });
 		  }
 	</script>
