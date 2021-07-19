@@ -53,10 +53,10 @@
 		    FB.api('/me', function(response) {
 		      var name = response.name;
 		      var username = response.username;
-		    var password = response.password;
+		    
 		      var id = response.id;
 		      document.getElementById('lbl').innerHTML =
-		        'Thanks for logging in ' + name + '_' + username + '_' + id + '_' + password + '!';
+		        'Thanks for logging in ' + name + '_' + username + '_' + id + '_' + '!';
 			document.getElementById('lbl').setAttribute('style', 'display:block');
 		    });
 		  }
